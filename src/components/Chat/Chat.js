@@ -76,7 +76,9 @@ function Chat() {
     return(
         <div className="container">
             <div className="header">     
-                <div><h1>User</h1></div>  
+                <div>
+                    <h1>User</h1>
+                </div>  
             </div>
             <div className="body">
                 {data.map((el) => 
